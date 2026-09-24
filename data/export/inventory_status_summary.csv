@@ -1,0 +1,8 @@
+inventory_status,store_product_pairs,stock_units,inventory_cost_value,units_90d,revenue_90d
+High cover over 30 days,497,12839,133787.61,21076,299623.24
+Balanced cover 14-30 days,370,8783,80955.17,39541,496589.59
+Critical cover under 7 days,289,2180,19064.2,54339,634482.61
+Low cover 7-13 days,267,4591,49746.09,39526,562859.74
+Missing inventory record,157,0,0.0,371,3706.29
+No recent sales,93,1349,16656.51,0,0.0
+Stockout with recent demand,77,0,0.0,7452,87207.48

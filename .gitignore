@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.twbr
+sql/mexico_toys.db
+sql/mexico_toys.db-shm
+sql/mexico_toys.db-wal
+outputs/*/preview_*.png
+
+# Local Tableau working copies. The portfolio workbook lives in dashboard/.
+/Book1.twb
+/Tableau Packaged Workbook (.twbx).twb

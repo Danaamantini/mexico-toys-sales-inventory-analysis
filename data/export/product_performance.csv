@@ -1,0 +1,36 @@
+product_id,product_name,product_category,units_sold,revenue,gross_profit,gross_margin
+6,Colorbuds,Electronics,104368,1564476.32,834944.0,0.5337
+1,Action Figure,Toys,57958,926748.42,347748.0,0.3752
+18,Lego Bricks,Toys,59737,2388882.63,298685.0,0.125
+8,Deck Of Cards,Games,84034,587397.66,252102.0,0.4292
+14,Glass Marbles,Games,37518,412322.82,187590.0,0.455
+3,Barrel O' Slime,Art & Crafts,91663,365735.37,183326.0,0.5013
+17,Kids Makeup Kit,Art & Crafts,24433,488415.67,146598.0,0.3002
+24,Nerf Gun,Sports & Outdoors,26543,530594.57,132715.0,0.2501
+7,Dart Gun,Sports & Outdoors,31588,505092.12,126352.0,0.2502
+11,Etch A Sketch,Art & Crafts,12168,255406.32,121680.0,0.4764
+19,Magic Sand,Art & Crafts,60598,968962.02,121196.0,0.1251
+2,Animal Figures,Toys,39089,507766.11,117267.0,0.2309
+10,Dinosaur Figures,Toys,29012,434889.88,116048.0,0.2668
+13,Gamer Headphones,Electronics,17958,376938.42,107748.0,0.2859
+25,PlayDoh Can,Art & Crafts,103128,308352.72,103128.0,0.3344
+21,Mini Ping Pong Set,Sports & Outdoors,33604,335703.96,100812.0,0.3003
+16,Jenga,Games,13054,130409.46,91378.0,0.7007
+30,Rubik's Cube,Games,45672,912983.28,91344.0,0.1001
+29,Plush Pony,Toys,5488,109705.12,60368.0,0.5503
+31,Splash Balls,Sports & Outdoors,60248,541629.52,60248.0,0.1112
+34,Toy Robot,Electronics,11749,305356.51,58745.0,0.1924
+15,Hot Wheels 5-Pack,Toys,22659,135727.41,45318.0,0.3339
+23,Mr. Potatohead,Toys,8605,85963.95,43025.0,0.5005
+20,Mini Basketball Hoop,Sports & Outdoors,2647,66148.53,42352.0,0.6403
+9,Dino Egg,Toys,38236,420213.64,38236.0,0.091
+28,Playfoam,Art & Crafts,4158,45696.42,29106.0,0.6369
+26,PlayDoh Playset,Art & Crafts,6298,157387.02,25192.0,0.1601
+27,PlayDoh Toolkit,Art & Crafts,23128,115408.72,23128.0,0.2004
+12,Foam Disk Launcher,Sports & Outdoors,7620,91363.8,22860.0,0.2502
+32,Supersoaker Water Gun,Sports & Outdoors,6793,101827.07,20379.0,0.2001
+22,Monopoly,Games,3385,67666.15,20310.0,0.3002
+33,Teddy Bear,Toys,6416,83343.84,12832.0,0.154
+4,Chutes & Ladders,Games,3829,49738.71,11487.0,0.2309
+35,Uno Card Game,Games,2710,21652.9,10840.0,0.5006
+5,Classic Dominoes,Games,4471,44665.29,8942.0,0.2002

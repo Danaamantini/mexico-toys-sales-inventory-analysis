@@ -1,0 +1,51 @@
+store_id,store_name,store_city,store_location,units_sold,revenue,gross_profit,gross_margin
+31,Maven Toys Ciudad de Mexico 2,Cuidad de Mexico,Airport,42757,554553.43,169856.0,0.3063
+30,Maven Toys Guadalajara 3,Guadalajara,Airport,31609,449354.91,121571.0,0.2705
+9,Maven Toys Ciudad de Mexico 1,Cuidad de Mexico,Downtown,33479,433556.21,111296.0,0.2567
+7,Maven Toys Monterrey 2,Monterrey,Downtown,28318,372998.82,106783.0,0.2863
+17,Maven Toys Toluca 1,Toluca,Downtown,32668,411157.32,104612.0,0.2544
+46,Maven Toys Guadalajara 4,Guadalajara,Downtown,24136,348466.64,102178.0,0.2932
+42,Maven Toys Hermosillo 3,Hermosillo,Commercial,23236,344846.64,98825.0,0.2866
+6,Maven Toys Mexicali 1,Mexicali,Commercial,22858,294019.42,97206.0,0.3306
+4,Maven Toys Saltillo 1,Saltillo,Downtown,24010,330408.9,94252.0,0.2853
+37,Maven Toys Ciudad de Mexico 3,Cuidad de Mexico,Residential,26634,337424.66,94021.0,0.2786
+36,Maven Toys Morelia 1,Morelia,Downtown,20895,273060.05,90484.0,0.3314
+45,Maven Toys Ciudad de Mexico 4,Cuidad de Mexico,Commercial,22729,323957.71,90385.0,0.279
+39,Maven Toys Xalapa 2,Xalapa,Downtown,25296,344307.04,88637.0,0.2574
+10,Maven Toys Campeche 1,Campeche,Downtown,24556,311786.44,88248.0,0.283
+14,Maven Toys Guanajuato 1,Guanajuato,Downtown,24740,313916.6,88002.0,0.2803
+41,Maven Toys Hermosillo 2,Hermosillo,Downtown,23498,323427.02,87995.0,0.2721
+33,Maven Toys Monterrey 3,Monterrey,Airport,22076,285814.24,86622.0,0.3031
+25,Maven Toys Ciudad Victoria 1,Ciudad Victoria,Downtown,20501,294803.99,83088.0,0.2818
+22,Maven Toys Guanajuato 2,Guanajuato,Commercial,21133,278926.67,79550.0,0.2852
+47,Maven Toys Monterrey 4,Monterrey,Commercial,22450,325073.5,79339.0,0.2441
+44,Maven Toys Puebla 3,Puebla,Residential,19345,267559.55,78670.0,0.294
+13,Maven Toys Mexicali 2,Mexicali,Downtown,21557,292156.43,77842.0,0.2664
+38,Maven Toys Chihuahua 2,Chihuahua,Downtown,22326,268704.74,77263.0,0.2875
+32,Maven Toys Hermosillo 1,Hermosillo,Residential,20082,235115.18,76788.0,0.3266
+19,Maven Toys Puebla 1,Puebla,Commercial,19413,258533.87,75942.0,0.2937
+3,Maven Toys Guadalajara 2,Guadalajara,Commercial,20698,262435.02,75752.0,0.2887
+29,Maven Toys Xalapa 1,Xalapa,Commercial,18927,265812.73,75083.0,0.2825
+28,Maven Toys Puebla 2,Puebla,Downtown,22413,282616.87,75082.0,0.2657
+34,Maven Toys Villahermosa 1,Villahermosa,Downtown,20934,258210.66,74221.0,0.2874
+2,Maven Toys Monterrey 1,Monterrey,Residential,20886,277959.14,73985.0,0.2662
+21,Maven Toys Santiago 1,Santiago,Downtown,20286,277598.14,72922.0,0.2627
+23,Maven Toys Chihuahua 1,Chihuahua,Commercial,18070,248008.3,69605.0,0.2807
+1,Maven Toys Guadalajara 1,Guadalajara,Residential,20011,261842.89,69429.0,0.2652
+48,Maven Toys Saltillo 2,Saltillo,Commercial,18893,249106.07,68996.0,0.277
+16,Maven Toys San Luis Potosi 1,San Luis Potosi,Downtown,19635,263389.65,68880.0,0.2615
+24,Maven Toys Aguascalientes 1,Aguascalientes,Downtown,17865,239997.35,68642.0,0.286
+12,Maven Toys Chetumal 1,Chetumal,Downtown,18965,258919.35,67940.0,0.2624
+50,Maven Toys Guanajuato 3,Guanajuato,Residential,18444,276212.56,67495.0,0.2444
+35,Maven Toys Chilpancingo 1,Chilpancingo,Downtown,18327,242539.73,66558.0,0.2744
+15,Maven Toys Tuxtla Gutierrez 1,Tuxtla Gutierrez,Downtown,19773,229698.27,65787.0,0.2864
+18,Maven Toys Merida 1,Merida,Downtown,18328,232097.72,64399.0,0.2775
+8,Maven Toys Pachuca 1,Pachuca,Downtown,19185,237676.15,63989.0,0.2692
+49,Maven Toys Culiacan 1,Culiacan,Downtown,19909,251160.91,63959.0,0.2547
+43,Maven Toys Durango 1,Durango,Downtown,17422,222318.78,62673.0,0.2819
+27,Maven Toys Oaxaca 1,Oaxaca,Downtown,18564,242154.36,59618.0,0.2462
+20,Maven Toys Zacatecas 1,Zacatecas,Downtown,17196,229983.04,59160.0,0.2572
+26,Maven Toys Campeche 2,Campeche,Commercial,16277,206055.23,58091.0,0.2819
+40,Maven Toys Toluca 2,Toluca,Commercial,15964,222364.36,58090.0,0.2612
+5,Maven Toys La Paz 1,La Paz,Downtown,16217,210897.83,57407.0,0.2722
+11,Maven Toys Cuernavaca 1,Cuernavaca,Downtown,17074,221587.26,56811.0,0.2564

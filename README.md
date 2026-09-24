@@ -2,7 +2,7 @@
 
 Proyecto de portafolio de análisis de ventas e inventario de Maven Toys en México. Integra SQL, Excel y Tableau para explicar el crecimiento, la presión sobre el margen y los desbalances entre inventario y demanda reciente.
 
-![Dashboard de Mexico Toys](dashboard/mexico_toys_dashboard_mockup_v2.png)
+El resultado principal es el workbook interactivo [`dashboard/mexico_toys_tableau.twb`](dashboard/mexico_toys_tableau.twb), con las vistas **Overview** e **Inventory Action**. Las imágenes conceptuales del repositorio son referencias de dirección visual y no capturas del dashboard terminado.
 
 ## Resultado ejecutivo
 
@@ -69,3 +69,10 @@ La pregunta de ventas perdidas se presenta como **exposición de demanda**, no c
 - [Limitaciones](docs/limitations.md)
 - [Validación](docs/validation_report.md)
 - [Especificación del dashboard](docs/dashboard_spec.md)
+- [Auditoría del concepto visual](docs/visual_concept_audit.md)
+
+## Concepto visual
+
+La siguiente imagen fue una exploración estética temprana. Sirve como referencia para color, jerarquía y profundidad visual, pero **no es una exportación de Tableau**. Los KPI y llamados ejecutivos fueron validados; la geometría de algunos gráficos es ilustrativa y no debe leerse como una representación exacta de los datos.
+
+![Concepto visual de Mexico Toys](dashboard/mexico_toys_dashboard_mockup_v2.png)

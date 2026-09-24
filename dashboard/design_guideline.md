@@ -1,8 +1,8 @@
 # Mexico Toys dashboard design guideline
 
-Current visual reference: `dashboard/mexico_toys_dashboard_mockup_v2.png`
+Visual concept reference: `dashboard/mexico_toys_dashboard_mockup_v2.png`
 
-The mockup defines hierarchy, spacing, color, and storytelling. Exact chart marks must be rebuilt from the project exports in Tableau; the illustrated monthly line is not a substitute for the data.
+The mockup defines hierarchy, spacing, color, and storytelling. It is not a Tableau export. Exact chart marks must be rebuilt from the project exports in Tableau; the illustrated monthly line and product comparison are not substitutes for the data.
 
 ## Story order
 

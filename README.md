@@ -1,78 +1,78 @@
 # Mexico Toys Sales & Inventory Analysis
 
-Proyecto de portafolio de análisis de ventas e inventario de Maven Toys en México. Integra SQL, Excel y Tableau para explicar el crecimiento, la presión sobre el margen y los desbalances entre inventario y demanda reciente.
+Portfolio project analyzing sales and inventory performance for Maven Toys in Mexico. It combines SQL, Excel, and Tableau to explain revenue growth, margin pressure, and imbalances between inventory and recent demand.
 
-El resultado principal es el workbook interactivo [`dashboard/mexico_toys_tableau.twb`](dashboard/mexico_toys_tableau.twb), con las vistas **Overview** e **Inventory Action**. Las imágenes conceptuales del repositorio son referencias de dirección visual y no capturas del dashboard terminado.
+The primary deliverable is the interactive Tableau workbook [`dashboard/mexico_toys_tableau.twb`](dashboard/mexico_toys_tableau.twb), which contains the **Overview** and **Inventory Action** dashboards. The concept images included in the repository are visual design references, not screenshots of the completed dashboard.
 
-## Resultado ejecutivo
+## Executive summary
 
-- **USD 14,4 M** de ingresos y **USD 4,0 M** de ganancia bruta en el período analizado.
-- Entre enero y septiembre de 2023, los ingresos crecieron **30,9% interanual**, mientras el margen bruto bajó de **29,6% a 26,2%**.
-- El inventario reportado representa **USD 300,2 K al costo** y aproximadamente **16,5 días de cobertura**.
-- **77 combinaciones tienda-producto** aparecen sin stock pese a registrar demanda reciente.
-- **USD 150,4 K** están concentrados en inventario con más de 30 días de cobertura o sin ventas recientes.
+- **$14.4M** in revenue and **$4.0M** in gross profit during the analyzed period.
+- From January through September 2023, revenue increased **30.9% year over year**, while gross margin declined from **29.6% to 26.2%**.
+- Reported inventory represents **$300.2K at cost** and approximately **16.5 days of estimated coverage**.
+- **77 store-product combinations** are out of stock despite showing recent demand.
+- **$150.4K** is tied up in inventory with more than 30 days of coverage or no recent sales.
 
-El workbook incluye dos vistas conectadas mediante navegación:
+The Tableau workbook includes two connected dashboards:
 
-1. **Overview:** ingresos, unidades, ganancia, margen y evolución comercial.
-2. **Inventory Action:** cobertura, riesgo de stockout, capital inmovilizado y prioridades de reposición.
+1. **Overview:** revenue, units sold, gross profit, gross margin, and commercial performance trends.
+2. **Inventory Action:** coverage, stockout risk, tied-up capital, and replenishment priorities.
 
-## Stack
+## Technology stack
 
-- **SQLite:** modelo relacional, métricas y consultas reproducibles.
-- **Excel:** revisión ejecutiva, anotaciones de hallazgos y tablas listas para explorar.
-- **Tableau:** dashboard ejecutivo con páginas de desempeño e inventario.
+- **SQLite:** relational model, reusable metrics, and reproducible queries.
+- **Excel:** executive review, annotated findings, and analysis-ready tables.
+- **Tableau:** executive dashboards covering commercial performance and inventory.
 
-## Estructura
+## Repository structure
 
-- `data/raw/`: archivos originales, sin modificaciones.
-- `data/processed/`: dimensiones limpias e inventario reportado.
-- `data/export/`: resultados pequeños listos para Excel y dashboard.
-- `sql/`: esquema, vistas y consultas de negocio.
-- `scripts/`: reconstrucción completa del proyecto.
-- `docs/`: metodología, hallazgos, limitaciones y diseño del dashboard.
-- `dashboard/mexico_toys_tableau.twb`: workbook final de Tableau.
-- `dashboard/`: assets, especificación visual y guía de construcción.
-- `outputs/`: workbook de análisis generado.
+- `data/raw/`: unchanged source files.
+- `data/processed/`: cleaned dimensions and reported inventory.
+- `data/export/`: lightweight outputs prepared for Excel and Tableau.
+- `sql/`: schema, analytical views, and business queries.
+- `scripts/`: end-to-end project rebuild.
+- `docs/`: methodology, findings, limitations, validation, and dashboard design.
+- `dashboard/mexico_toys_tableau.twb`: final Tableau workbook.
+- `dashboard/`: visual assets, design specification, and Tableau build guide.
+- `outputs/`: generated Excel analysis workbook.
 
-## Reproducir
+## Reproduce the analysis
 
-Desde la raíz del proyecto:
+From the project root, run:
 
 ```bash
 python3 scripts/build_project.py
 ```
 
-Esto vuelve a crear `sql/mexico_toys.db`, los archivos limpios y todos los exports analíticos.
+This recreates `sql/mexico_toys.db`, the cleaned datasets, and all analytical exports.
 
-Para abrir el dashboard, usa `dashboard/mexico_toys_tableau.twb`. Si Tableau solicita localizar las fuentes, apunta a:
+Open `dashboard/mexico_toys_tableau.twb` to explore the dashboards. If Tableau asks you to locate the data sources, select:
 
 - `data/export/dashboard_sales.csv`
 - `data/export/inventory_analysis.csv`
 - `data/export/weekday_performance.csv`
 
-El análisis completo también está disponible en `outputs/01a0c449-42d0-7ea3-b248-27cdd5d48ea7/mexico_toys_analysis.xlsx`.
+The complete Excel analysis is available at `outputs/01a0c449-42d0-7ea3-b248-27cdd5d48ea7/mexico_toys_analysis.xlsx`.
 
-## Preguntas de negocio
+## Business questions
 
-1. ¿Qué categorías generan la mayor ganancia bruta? ¿Es igual según la ubicación de las tiendas?
-2. ¿Qué tendencias temporales aparecen en ventas y rentabilidad?
-3. ¿Qué combinaciones tienda-producto tienen stock cero pese a mostrar demanda reciente?
-4. ¿Cuánto dinero está invertido en inventario y cuántos días puede durar?
+1. Which product categories generate the most gross profit, and does performance vary by store location?
+2. What sales and profitability trends appear over time?
+3. Which store-product combinations have zero stock despite showing recent demand?
+4. How much capital is invested in inventory, and how many days could that inventory cover?
 
-La pregunta de ventas perdidas se presenta como **exposición de demanda**, no como ventas históricas perdidas, porque el dataset solo contiene una fotografía de inventario sin movimientos ni fechas de reposición.
+Potential lost sales are presented as **demand exposure**, not as measured historical lost sales, because the dataset contains only an inventory snapshot and does not include inventory movements or replenishment dates.
 
-## Documentación
+## Documentation
 
-- [Hallazgos](docs/findings.md)
-- [Metodología](docs/methodology.md)
-- [Limitaciones](docs/limitations.md)
-- [Validación](docs/validation_report.md)
-- [Especificación del dashboard](docs/dashboard_spec.md)
-- [Auditoría del concepto visual](docs/visual_concept_audit.md)
+- [Findings](docs/findings.md)
+- [Methodology](docs/methodology.md)
+- [Limitations](docs/limitations.md)
+- [Validation report](docs/validation_report.md)
+- [Dashboard specification](docs/dashboard_spec.md)
+- [Visual concept audit](docs/visual_concept_audit.md)
 
-## Concepto visual
+## Visual concept
 
-La siguiente imagen fue una exploración estética temprana. Sirve como referencia para color, jerarquía y profundidad visual, pero **no es una exportación de Tableau**. Los KPI y llamados ejecutivos fueron validados; la geometría de algunos gráficos es ilustrativa y no debe leerse como una representación exacta de los datos.
+The following image is an early visual exploration. It remains a reference for color, hierarchy, and visual depth, but **it is not a Tableau export**. The headline KPIs and executive callouts were validated; the geometry of some charts is illustrative and should not be interpreted as an exact representation of the data.
 
-![Concepto visual de Mexico Toys](dashboard/mexico_toys_dashboard_mockup_v2.png)
+![Mexico Toys visual concept](dashboard/mexico_toys_dashboard_mockup_v2.png)

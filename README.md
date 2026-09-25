@@ -2,9 +2,17 @@
 
 Portfolio project analyzing sales and inventory performance for Maven Toys in Mexico. It combines SQL, Excel, and Tableau to explain revenue growth, margin pressure, and imbalances between inventory and recent demand.
 
-The primary deliverable is the packaged interactive Tableau workbook [`dashboard/mexico_toys_final.twbx`](dashboard/mexico_toys_final.twbx), which contains the **Overview** and **Inventory Action** dashboards together with their data and image assets. The concept images included in the repository are visual design references, not screenshots of the completed dashboard.
+## Tableau dashboards
 
-[![Final Mexico Toys Tableau dashboard](dashboard/mexico_toys_overview_final.png)](dashboard/mexico_toys_final.twbx)
+### Overview
+
+[![Mexico Toys Overview dashboard](dashboard/mexico_toys_overview_final.png)](dashboard/mexico_toys_final.twbx)
+
+### Inventory Action
+
+[![Mexico Toys Inventory Action dashboard](dashboard/mexico_toys_inventory_action_final.png)](dashboard/mexico_toys_final.twbx)
+
+The primary deliverable is the packaged interactive Tableau workbook [`dashboard/mexico_toys_final.twbx`](dashboard/mexico_toys_final.twbx), which contains both dashboards together with their data and image assets.
 
 ## Executive summary
 
@@ -75,10 +83,3 @@ Potential lost sales are presented as **demand exposure**, not as measured histo
 - [Limitations](docs/limitations.md)
 - [Validation report](docs/validation_report.md)
 - [Dashboard specification](docs/dashboard_spec.md)
-- [Visual concept audit](docs/visual_concept_audit.md)
-
-## Visual concept
-
-The following image is an early visual exploration. It remains a reference for color, hierarchy, and visual depth, but **it is not a Tableau export**. The headline KPIs and executive callouts were validated; the geometry of some charts is illustrative and should not be interpreted as an exact representation of the data.
-
-![Mexico Toys visual concept](dashboard/mexico_toys_dashboard_mockup_v2.png)

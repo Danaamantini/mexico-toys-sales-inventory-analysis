@@ -2,7 +2,7 @@
 
 Portfolio project analyzing sales and inventory performance for Maven Toys in Mexico. It combines SQL, Excel, and Tableau to explain revenue growth, margin pressure, and imbalances between inventory and recent demand.
 
-The primary deliverable is the interactive Tableau workbook [`dashboard/mexico_toys_tableau.twb`](dashboard/mexico_toys_tableau.twb), which contains the **Overview** and **Inventory Action** dashboards. The concept images included in the repository are visual design references, not screenshots of the completed dashboard.
+The primary deliverable is the packaged interactive Tableau workbook [`dashboard/mexico_toys_final.twbx`](dashboard/mexico_toys_final.twbx), which contains the **Overview** and **Inventory Action** dashboards together with their data and image assets. The concept images included in the repository are visual design references, not screenshots of the completed dashboard.
 
 ## Executive summary
 
@@ -31,7 +31,9 @@ The Tableau workbook includes two connected dashboards:
 - `sql/`: schema, analytical views, and business queries.
 - `scripts/`: end-to-end project rebuild.
 - `docs/`: methodology, findings, limitations, validation, and dashboard design.
-- `dashboard/mexico_toys_tableau.twb`: final Tableau workbook.
+- `dashboard/mexico_toys_final.twbx`: final packaged Tableau workbook.
+- `dashboard/mexico_toys_tableau.twb`: earlier editable Tableau source retained for reference.
+- `kpi-icons/`: transparent KPI icons and supporting dashboard graphics.
 - `dashboard/`: visual assets, design specification, and Tableau build guide.
 - `outputs/`: generated Excel analysis workbook.
 
@@ -45,7 +47,9 @@ python3 scripts/build_project.py
 
 This recreates `sql/mexico_toys.db`, the cleaned datasets, and all analytical exports.
 
-Open `dashboard/mexico_toys_tableau.twb` to explore the dashboards. If Tableau asks you to locate the data sources, select:
+Open `dashboard/mexico_toys_final.twbx` to explore the finished dashboards. The packaged workbook already contains the required Tableau data sources and image assets.
+
+The source exports are also available separately at:
 
 - `data/export/dashboard_sales.csv`
 - `data/export/inventory_analysis.csv`

@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "kpi-icons" / "final"
+OUT = ROOT / "dashboard" / "assets" / "final"
 SIZE = 512
 SCALE = 4
 WHITE = (255, 255, 255, 255)
@@ -100,23 +100,6 @@ def stockouts_demand():
     return im
 
 
-def no_sales_inventory():
-    im = canvas()
-    d = ImageDraw.Draw(im)
-
-    # Rear carton establishes inventory depth without competing with the symbol.
-    rounded(d, (225, 157, 350, 260), radius=12, width=14)
-    line(d, [(225, 198), (350, 198)], width=14)
-    line(d, [(287, 157), (287, 198)], width=14)
-
-    # Front carton with an unmistakable pause mark for inactive/no-sales stock.
-    rounded(d, (151, 239, 326, 365), radius=14, width=17)
-    line(d, [(151, 282), (326, 282)], width=17)
-    d.rounded_rectangle(scaled((202, 307, 222, 348)), radius=5 * SCALE, fill=WHITE)
-    d.rounded_rectangle(scaled((253, 307, 273, 348)), radius=5 * SCALE, fill=WHITE)
-    return im
-
-
 def no_sales_inventory_prohibited():
     im = canvas()
     d = ImageDraw.Draw(im)
@@ -139,8 +122,7 @@ def save(name, image):
     image.resize((SIZE, SIZE), Image.Resampling.LANCZOS).save(OUT / name)
 
 
-save("kpi-inventory-cost-final.png", inventory_cost())
-save("kpi-days-cover-final.png", days_cover())
-save("kpi-stockouts-demand-final.png", stockouts_demand())
-save("kpi-high-no-sales-final.png", no_sales_inventory())
-save("kpi-high-no-sales-prohibited-final.png", no_sales_inventory_prohibited())
+save("kpi-inventory-cost.png", inventory_cost())
+save("kpi-days-cover.png", days_cover())
+save("kpi-stockouts-demand.png", stockouts_demand())
+save("kpi-high-no-sales.png", no_sales_inventory_prohibited())

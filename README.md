@@ -4,6 +4,8 @@ Portfolio project analyzing sales and inventory performance for Maven Toys in Me
 
 The primary deliverable is the packaged interactive Tableau workbook [`dashboard/mexico_toys_final.twbx`](dashboard/mexico_toys_final.twbx), which contains the **Overview** and **Inventory Action** dashboards together with their data and image assets. The concept images included in the repository are visual design references, not screenshots of the completed dashboard.
 
+[![Final Mexico Toys Tableau dashboard](dashboard/mexico_toys_overview_final.png)](dashboard/mexico_toys_final.twbx)
+
 ## Executive summary
 
 - **$14.4M** in revenue and **$4.0M** in gross profit during the analyzed period.
@@ -33,7 +35,7 @@ The Tableau workbook includes two connected dashboards:
 - `docs/`: methodology, findings, limitations, validation, and dashboard design.
 - `dashboard/mexico_toys_final.twbx`: final packaged Tableau workbook.
 - `dashboard/mexico_toys_tableau.twb`: earlier editable Tableau source retained for reference.
-- `kpi-icons/`: transparent KPI icons and supporting dashboard graphics.
+- `dashboard/assets/final/`: final transparent KPI icons and supporting dashboard graphics.
 - `dashboard/`: visual assets, design specification, and Tableau build guide.
 - `outputs/`: generated Excel analysis workbook.
 

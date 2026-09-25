@@ -1,5 +1,7 @@
 # Tableau dashboard
 
+![Final Mexico Toys Overview dashboard](mexico_toys_overview_final.png)
+
 The completed workbook is `mexico_toys_final.twbx` and contains two dashboards:
 
 - **Overview:** commercial performance, revenue trend, margin, product mix, store-location productivity and weekday demand.
